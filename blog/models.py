@@ -1,8 +1,10 @@
+import datetime
+
 from django.db import models
 from django.contrib.auth.models import User
+import django.contrib.markup
+
 from tagging.fields import TagField
-from markdown import markdown
-import datetime
 
 class Category(models.Model):
     title = models.CharField(max_length=250, help_text='Maximum 250 characters.')

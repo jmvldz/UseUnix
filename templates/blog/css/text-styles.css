@@ -1,0 +1,159 @@
+body {
+  font-size: 100%; /* Fixes exaggerated text resizing in IE6 and IE7 */
+}
+
+#skip-link,
+#page {
+  /*
+   * To use a 12px font size on the page, delete the 14px declarations.
+   * to use a 14px font size on the page, delete the 12px declarations.
+   */
+
+  /* Use a 12px base font size with a 16px line height */
+  font-size: 0.75em; /* 16px x .75 = 12px */
+  line-height: 1.333em; /* 12px x 1.333 = 16px */
+
+
+}
+
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset {
+  /*
+  font-family: "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
+  font-family: Times, "Times New Roman", Georgia, "DejaVu Serif", serif;
+  font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: Tahoma, Verdana, "DejaVu Sans", sans-serif;
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+  font-family: "Courier New", "DejaVu Sans Mono", monospace;
+
+   */
+
+  font-family: "Droid Sans", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+}
+#name-and-slogan #site-name {
+	font-family: Courier, "Courier New", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, monospace;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+table {
+	font-size: 12px;
+	text-align: left;
+	display: inline-block;
+}
+table .vidlength {
+	text-align: right;
+}
+table a {
+	color: black;
+	
+}
+.chapterhead a {
+	padding-left: 22px;
+	
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.chapterhead a.exp {
+	background-position: 0 3px;
+	background-repeat: no-repeat;
+	background-image: url(../images/smallarrow.gif);
+}
+.chapterhead a.col {
+	background-position: 3px 0;
+	background-repeat: no-repeat;
+	background-image: url(../images/smallarrowcol.gif);
+}
+.chapterhead a:hover {
+	text-decoration: underline;
+}
+
+#site-name {
+	font-family: Bevan, sans-serif;
+	font-size: 1.6em;
+	padding: .6em 0 0 .8em;
+	margin: 0;
+	letter-spacing: .1em;
+	display: block;
+	font-weight: normal;
+}
+#site-name a {
+	color: white;
+	text-decoration: none;
+}
+#page-title {
+	margin-top: 0;
+	margin-bottom: 1em;
+	font-weight: normal;
+	font-size: 2.7em;
+	color: #333;
+	border-bottom: 2px solid #eaeaea;
+	line-height: 1.18em;
+	padding-left: 1.5em;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+h2.dashboard {
+	background-position: 0;
+	background-image: url(../images/dashboardLarge.gif);
+}
+navigation a {
+	text-decoration: none;
+}
+#chat-now {
+	color: white;
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: .6em 0 0 2.5em;
+}
+#title-bar-options a {
+	color: white;
+	font-size: .9em;
+	text-decoration: none;
+}
+#navigation div,
+#navigation a,
+#navigation li,
+#navigation ul {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#sidebar .sidebartitle h3 {
+	color: white;
+	font-weight: normal;
+	font-family: Courier, "Courier New", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, monospace;
+	padding-left: 18px;
+	font-size: 20px;
+	padding-top: 5px;
+
+}
+
+#sidebar li {
+	list-style: none;
+	margin-left: 0;
+	margin-top: 10px;
+}
+#sidebar ul {
+	padding-left: 20px;
+	margin-top: 0;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#sidebar ul a {
+	color: black;
+}

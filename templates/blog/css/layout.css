@@ -1,0 +1,148 @@
+/*
+ * Body
+ */
+body {
+margin: 0;
+
+}
+
+#page-wrapper,
+.region-page-closure {
+  width: 100%;
+}
+
+#page {
+}
+
+/*
+ * Header
+ */
+#header,
+#header .section {
+height: 70px;
+
+}
+#header img {
+position: relative;
+top: 8px;
+}
+#top-content{
+height: 217px;
+}
+#header .section,
+#top-content .section,
+#main-wrapper #main {
+width: 960px;
+margin: 0 auto;
+overflow: hidden;
+}
+#name-and-slogan {
+display: inline-block;
+}
+#site-name {
+display: inline-block;
+position: relative;
+top: -8px;
+left: -10px;
+}
+#orgspan {
+	color: #50da02;
+}
+
+.region-header {
+  clear: both; /* Clear the logo */
+}
+
+/*
+ * Main (container for everything else)
+ */
+#main-wrapper {
+  position: relative;
+}
+
+#main {
+}
+
+/*
+ * Tables
+ */
+#chapter1content {
+ 	padding-left: 22px;
+ }
+td {
+	height: 30px;
+}
+.vidtitle {
+	width: 550px;
+}
+.vidlength {
+
+}
+/*
+ * Content
+ */
+#content {
+	float: left;
+	width: 700px;
+	margin-top: 30px;
+
+}
+
+/*
+ * Sidebar
+ */
+#sidebar {
+  float: right;
+  width: 200px; 
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+	
+}
+
+.sidebartitle {
+	height: 30px;
+}
+/*
+ * Footer
+ */
+#footer {
+}
+
+#footer .section {
+}
+
+/*
+ * Closure
+ */
+.region-page-closure {
+}
+
+/*
+ * Prevent overflowing content
+ */
+#header,
+#content,
+#navigation,
+.region-sidebar-first,
+.region-sidebar-second,
+#footer,
+.region-page-closure {
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+#navigation {
+  overflow: hidden; 
+}
+#title-bar-options {
+	text-align: right;
+	margin-right: 2em;
+	position: relative;
+	z-index: 20;
+	height: 22px;
+	vertical-align: middle;
+}
+#title-bar-options a {
+vertical-align: middle;
+}

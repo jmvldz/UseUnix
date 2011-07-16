@@ -14,5 +14,6 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    (r'', include('django.contrib.flatpages.urls')),
+    url(r'^weblog/$', 'blog.views.entries_index'),
+    url(r'', include('django.contrib.flatpages.urls')),
 )

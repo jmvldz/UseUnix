@@ -1,0 +1,17 @@
+body {
+	background-color: white;
+}
+#header {
+	background-color: #262626;
+}
+#top-content {
+	background-image: url(../images/stripe.png);
+}
+.sidebartitle {
+	background-repeat: no-repeat;
+	background-image: url(../images/sidebar.gif);
+}
+
+.sidebarbody {
+	background-color: #eaeaea;
+}
